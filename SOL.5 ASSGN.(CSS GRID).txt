@@ -1,0 +1,15 @@
+TASK 5: Explain the difference between justify-items and justify-self with code examples.
+
+SOL:
+
+Justify-items:
+
+This property is applied at the grid container level.
+It controls the horizontal alignment of all grid items within their respective grid cells.
+Possible values include start,end,center,stretch.
+
+Justify-self:
+This property is applied to individual grid items.
+It overrides the justify-items value for the specific grid item it is applied to.
+Possible values are the same as justify-items: start, end, center, stretch, etc.
+

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .alpha{
+            width:500px;
+            height: 500px;
+            background-color: azure;
+            display: grid;
+            grid-template-columns: repeat(3,200px);
+            grid-template-rows: repeat(2,200px);
+            gap: 20px;
+        }
+        .A{
+            grid-column: 1/3;
+            grid-row:1/2;
+            background-color: ;
+        }
+        .B{
+            grid-column: 3/4;
+            grid-row: 1/3;
+        }
+        .C{
+            grid-column: 1/2;
+            grid-row: 2/3;
+        }
+        .D{
+            grid-column: 2/3;
+            grid-row: 2/3;
+        }
+        .box{
+            background-color: bisque;
+            color: #fff;
+            border-radius: 5px;
+            padding: 20px;
+            font-size: 150%;
+            color: black;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="alpha">
+        <div class="box A">A</div>
+        <div class="box B">B</div>
+        <div class="box C">C</div>
+        <div class="box D">D</div>
+    </div>
+</body>
+</html>

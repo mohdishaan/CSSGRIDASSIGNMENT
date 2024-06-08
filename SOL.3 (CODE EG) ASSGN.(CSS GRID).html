@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+            display: grid;
+            grid-template-columns: repeat(3, 1fr); 
+            grid-template-rows: repeat(2, 150px);
+            grid-auto-rows: 100px; 
+            grid-auto-columns: 200px; 
+        }   
+        .container div{
+            background-color: aqua;
+            border: 2px solid black;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div>box 1</div>
+        <div>box 2</div>
+        <div>box 3</div>
+        <div>box 4</div>
+        <div>box 5</div>
+        <div>box 6</div>
+        <div>box 7</div>
+        <div>box 8</div>
+        <!--Here when the box 7 and box 8 is added, it will be placed in a new row of size 100 px
+        which is being defined in grid-auto-rows which creates an additional row of size 100px-->
+    </div>
+</body>
+</html>

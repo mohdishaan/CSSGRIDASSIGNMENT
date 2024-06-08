@@ -1,0 +1,4 @@
+TASK3 : Explain the use of grid-auto-row and grid-auto-column using code examples.
+
+SOL:
+Grid-auto-rows and grid-auto-column properties specifies the height and width of the rows that are automatically created when there is no explicit roww definition and column definition respectively .
